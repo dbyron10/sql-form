@@ -11,9 +11,41 @@
             <h1>Burke Museum Bird Database</h1>
             <p>Insert bird information below to submit it into the Burke Museum's Bird Database</p>
         </header>
-        <form action="">
-            <label for="bird">Bird Name</label>
-            <input for="bird-name"/>
+        <form name="birdEntry" action="" method="POST">
+            <label for="museumNum">Museum Number</label>
+            <input type="number" name="museumNum"/>
+            <br>
+            <br>
+            <label for="gender">Gender</label>
+            <input type="text" name="gender"/>
+            <br>
+            <br>
+            <label for="speciesName">Species Name</label>
+            <input type="text" name="speciesName"/>
+            <br>
+            <br>
+            <label for="preparitorNum">Preparitor Number</label>
+            <input type="number" name="preparitorNum"/>
+            <br>
+            <br>
+            <label for="preparationDate">Preparation Date</label>
+            <input type="date" name="preparationDate"/>
+            <br>
+            <br>
+            <label for="personFName">First Name</label>
+            <input type="text" name="personFName"/>
+            <br>
+            <br>
+            <label for="personMName">Middle Name</label>
+            <input type="text" name="personFName"/>
+            <br>
+            <br>
+            <label for="personLName">Last Name</label>
+            <input type="text" name="personLName"/>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
         </form>
     </body>
 </html>
+
